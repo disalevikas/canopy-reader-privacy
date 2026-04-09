@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FeedFlow — Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1917;
+      background: #ffffff;
+      padding: 48px 24px 80px;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 40px;
+      text-decoration: none;
+    }
+
+    .logo-icon {
+      width: 36px;
+      height: 36px;
+      background: #185FA5;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo-name {
+      font-size: 20px;
+      font-weight: 600;
+      color: #1a1917;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #1a1917;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .effective-date {
+      font-size: 14px;
+      color: #888780;
+      margin-bottom: 40px;
+    }
+
+    .summary-box {
+      background: #EBF3FD;
+      border-left: 4px solid #185FA5;
+      border-radius: 0 8px 8px 0;
+      padding: 16px 20px;
+      margin-bottom: 40px;
+    }
+
+    .summary-box p {
+      font-size: 15px;
+      color: #0C447C;
+      font-weight: 500;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #1a1917;
+      margin-top: 36px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #3d3d3a;
+      margin-bottom: 14px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 14px;
+      color: #3d3d3a;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+    }
+
+    .check-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .check-list li::before {
+      content: '✓  ';
+      color: #185FA5;
+      font-weight: 600;
+    }
+
+    .contact {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #eeede9;
+      font-size: 14px;
+      color: #888780;
+    }
+
+    .contact a {
+      color: #185FA5;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1a; color: #e8e6e0; }
+      .logo-name, h1, h2 { color: #e8e6e0; }
+      p, ul { color: #a09d96; }
+      .summary-box { background: #18263a; border-color: #5BA4F5; }
+      .summary-box p { color: #B5D4F4; }
+      .check-list li::before { color: #5BA4F5; }
+      .contact { border-color: #2e2c2a; color: #6b6860; }
+      .contact a { color: #5BA4F5; }
+      .effective-date { color: #6b6860; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="logo" href="#">
+      <div class="logo-icon">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+          <circle cx="5" cy="17" r="2.5" fill="white"/>
+          <path d="M3 10c5.52 0 9 3.48 9 9" stroke="white" stroke-width="2" stroke-linecap="round" fill="none"/>
+          <path d="M3 4c8.28 0 15 6.72 15 15" stroke="white" stroke-width="2" stroke-linecap="round" fill="none"/>
+        </svg>
+      </div>
+      <span class="logo-name">FeedFlow</span>
+    </a>
+
+    <!-- Title -->
+    <h1>Privacy Policy</h1>
+    <p class="effective-date">Effective date: January 1, 2025</p>
+
+    <!-- Summary -->
+    <div class="summary-box">
+      <p>FeedFlow does not collect, store, or share any personal data. Everything stays on your device.</p>
+    </div>
+
+    <!-- Sections -->
+    <h2>What FeedFlow does</h2>
+    <p>
+      FeedFlow is a browser extension that lets you subscribe to RSS and Atom feeds and read articles
+      directly in Chrome. It works entirely within your browser — there are no servers, no accounts,
+      and no external services involved.
+    </p>
+
+    <h2>Data we do not collect</h2>
+    <p>FeedFlow does not collect, transmit, or share any of the following:</p>
+    <ul class="check-list">
+      <li>Your identity or any personal information</li>
+      <li>Your browsing history or activity</li>
+      <li>The feeds you subscribe to</li>
+      <li>The articles you read</li>
+      <li>Your device or location information</li>
+      <li>Any analytics, crash reports, or usage data</li>
+    </ul>
+
+    <h2>How data is stored</h2>
+    <p>
+      FeedFlow stores your feed list, folder structure, settings, and article read state locally
+      in your browser using Chrome's built-in <code>chrome.storage</code> API. This data never
+      leaves your device and is not accessible to anyone other than you.
+    </p>
+    <p>
+      If you use Chrome's built-in sync feature, Chrome may sync your feed list and settings across
+      your own devices via your Google account. This sync is handled entirely by Chrome — FeedFlow
+      has no involvement in or access to that process.
+    </p>
+
+    <h2>Network requests</h2>
+    <p>
+      FeedFlow makes network requests only to fetch RSS and Atom feed URLs that you explicitly add.
+      These requests go directly from your browser to the feed provider's server. FeedFlow does not
+      route these requests through any proxy or intermediate server.
+    </p>
+    <p>
+      FeedFlow also uses Google's favicon service (<code>www.google.com/s2/favicons</code>) to
+      display website icons in the feed list. This is a standard public service.
+    </p>
+
+    <h2>Permissions explained</h2>
+    <p>FeedFlow requests the following Chrome permissions:</p>
+    <ul>
+      <li>
+        <strong>Access to all websites</strong> — required so the extension can fetch RSS feeds
+        from any URL you choose to add. Feed URLs are user-defined and cannot be predicted in advance,
+        so a broad host permission is necessary. No data from visited websites is collected or stored.
+      </li>
+      <li>
+        <strong>Storage</strong> — to save your feeds, folders, settings, and read state locally
+        in your browser.
+      </li>
+      <li>
+        <strong>Alarms</strong> — to check for new articles at the refresh interval you set in
+        settings.
+      </li>
+      <li>
+        <strong>Tabs</strong> — to open the FeedFlow reader in a new tab when you click the
+        extension icon, and to focus an existing FeedFlow tab if one is already open.
+      </li>
+      <li>
+        <strong>Notifications</strong> — reserved for a future feature to optionally alert you
+        when new articles arrive. Not currently active.
+      </li>
+    </ul>
+
+    <h2>Third-party services</h2>
+    <p>
+      FeedFlow does not integrate with any third-party analytics, advertising, or data services.
+      The only external contact the extension makes is to the RSS feed URLs you add and to
+      Google's favicon service as described above.
+    </p>
+
+    <h2>Children's privacy</h2>
+    <p>
+      FeedFlow does not knowingly collect any information from anyone, including children under
+      the age of 13.
+    </p>
+
+    <h2>Changes to this policy</h2>
+    <p>
+      If this privacy policy is updated, the new version will be posted at this URL with a revised
+      effective date. Since FeedFlow collects no data, any changes are unlikely to affect your
+      privacy in practice.
+    </p>
+
+    <div class="contact">
+      <p>
+        Questions about this privacy policy?
+        Open an issue at
+        <a href="https://github.com/disalevikas/feedflow-privacy" target="_blank" rel="noopener noreferrer">
+          github.com/disalevikas/feedflow-privacy
+        </a>
+      </p>
+    </div>
+
+  </div>
+</body>
+</html>
